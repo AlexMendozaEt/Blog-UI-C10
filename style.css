@@ -1,0 +1,70 @@
+.headers {
+  background-color: #fee2e280;
+  width: 375px;
+  margin-bottom: 10px;
+}
+
+#h1 {
+  padding-bottom: 8px;
+}
+#h2 {
+  padding-bottom: 3px;
+  padding-top: 15px;
+}
+#h3 {
+  padding-bottom: 0.5px;
+  padding-top: 2px;
+}
+
+h1{
+  background-color: white;
+  font-size: 21px;
+}
+h2{
+  background-color: white;
+  font-size: 16px;
+}
+h3{
+  background-color: white;
+  font-size: 11px;
+}
+.paragraph {
+  background-color: #fee2e280;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+p {
+  background-color: white;
+  font-size: 12px;
+}
+.list {
+  padding-left: 20px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.paragraph2{
+  background-color: #fee2e280;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  margin-bottom: 10px;
+}
+.paragraph2 > p{
+  font-size: 10px;
+  background-color: #D6D3D1;
+  border-radius: 5px;
+  padding: 8px;
+}
+.image {
+  background-color: #fee2e280;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.image > img {
+  width: 375px;
+}
+.image > figcaption {
+  background-color: white;
+  font-size: 8px;
+}
