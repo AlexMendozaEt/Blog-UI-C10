@@ -1,0 +1,68 @@
+@import url(./resetcss.css);
+
+.section-md{
+  margin: 48px 0;
+  padding: 48px 0;
+  background-color:#F3F4F6;
+  ;
+}
+
+.container-md{
+  padding: 0px 16px;
+}
+.text-style{
+  font-family: 'Open Sans';
+  font-style: normal;
+}
+h1{
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+}
+p {
+  margin: 24px 0;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+h2{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 56px;
+  margin-bottom: 24px;
+}
+a {
+  color: #BE185D;
+}
+ul{
+  padding-left: 20px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+blockquote{
+  margin: 24px 0;
+  background-color: #D6D3D1;
+  border-radius: 8px;
+  height: 160px;
+}
+blockquote > p{
+  padding: 16px 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+}
+figure{
+  margin: 32px 0;
+}
+img {
+  border-radius: 8px;
+}
+figcaption{
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
