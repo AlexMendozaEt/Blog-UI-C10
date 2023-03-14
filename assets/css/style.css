@@ -1,9 +1,22 @@
 @import url(./resetcss.css);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+:root{
+  --font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+  --gray-100: #F3F4F6;
+  --gray-300: #D1D5DB;
+  --gray-900: #111827;
+  --pink-600: #DB2777;
+  --pink-700: #BE185D;
+  --stone-300: #D6D3D1;
+  --stone-400: #78716C;
+  --boder-button: #009cfd;
+
+}
 body {
-  background-color:#F3F4F6;
-  font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
+  background-color: var(--gray-100);
+  font-family: var(--font-family);
+  color: var(--gray-900);
 }
 
 .section-md{
@@ -29,7 +42,7 @@ nav{
 
 .button{
   padding: 12px 16px 12px 16px;
-  background-color: #D1D5DB;
+  background-color: var(--gray-300);
   border-radius: 8px;
   width: 86px;
   height: 40px;
@@ -55,34 +68,44 @@ nav{
 }
 
 .button:hover{
-  background-color: #9CA3AF;
+  background-color: var(--gray-300);
+  filter: brightness(90%);
 }
+
 .button:active{
-  background-color: #6B7280;
+  background-color: var(--gray-300);
+  filter: brightness(80%);
 }
+
+.button:focus{
+  border: 3px solid var(--boder-button);
+}
+
 .button:disabled {
   opacity: 0.6;
 }
 
 .button--primary{
-  background-color:#DB2777;
-  color: #FFFFFF;
+  background-color: var(--pink-600);
+  color: white;
   margin-left: 40px;
 }
 
 .button--primary:hover{
-  background-color:#BE185D;
+  background-color: var(--pink-600);
+  filter: brightness(90%);
 }
 
 .button--primary:active{
-  background-color: #DB2777;
+  background-color: var(--pink-600);
+  filter: brightness(80%);
 }
 
 .button--primary--sm{
   padding: 8px 12px 8px 12px;
   min-width: 71px;
   max-height: 30px;
-  font-size: 11px;
+  font-size: 10px;
   margin: 19px 40px;
 }
 
@@ -94,16 +117,18 @@ nav{
 }
 
 .button--secundary{
-  background-color:#78716C;
-  color: #FFFFFF;
+  background-color: var(--stone-400);
+  color: white;
 }
 
 .button--secundary:hover{
-  background-color: #44403C;
+  background-color: var(--stone-400);
+  filter: brightness(90%);
 }
 
 .button--secundary:active{
-  background-color: #78716C;
+  background-color: var(--stone-400);
+  filter: brightness(80%);
 }
 
 .button-text{
@@ -111,62 +136,71 @@ nav{
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
-  color: #DB2777;
   border: 0;
   margin: 22px 24px;
 }
 
 .button-text a{
   text-decoration:none;
+  color: var(--pink-600);
 }
 
-h1{
+.container-md h1{
   margin-bottom: 32px;
   font-weight: 400;
   font-size: 36px;
   line-height: 40px;
 }
-p {
+
+.container-md p {
   margin: 24px 0;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
 }
-h2{
+.container-md strong{
+  font-weight: 600;
+}
+
+.container-md h2{
   font-weight: 400;
   font-size: 30px;
   line-height: 40px;
   margin-top: 56px;
   margin-bottom: 24px;
 }
-a {
-  color: #BE185D;
+.container-md a {
+  color: var(--pink-700);
+    font-weight: 400;
 }
-ul{
+.container-md ul{
   padding-left: 20px;
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
+  margin-left: 15px;
 }
-blockquote{
+.container-md ul li{
+  margin: 18px 0;
+}
+.container-md blockquote{
   margin: 24px 0;
-  background-color: #D6D3D1;
-  border-radius: 8px;
   max-height: 160px;
-}
-blockquote > p{
   padding: 16px 18px;
-  font-weight: 400;
+  font-style: italic;
+  font-weight: 300;
   font-size: 18px;
   line-height: 32px;
+  border-left: 5px solid var(--stone-300);
 }
-figure{
+
+.container-md figure{
   margin: 32px 0;
 }
-img {
+.container-md img {
   border-radius: 8px;
 }
-figcaption{
+.container-md figcaption{
   margin-top: 16px;
   font-weight: 300;
   font-size: 16px;
