@@ -1,0 +1,27 @@
+@media only screen and (max-width: 400px) {
+  .nav--flexbox {
+    display: inline-block;
+  }
+  .button-text {
+    margin-top: 0px;
+  }
+  .sections__articles__acticles_posts {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  #name {
+    margin-left: 24px;
+  }
+  .nav--flexbox {
+    justify-content: space-between;
+  }
+  .articles_box {
+    max-width: 800px;
+    margin: auto;
+  }
+  .articles_post {
+    max-width: 300px;
+  }
+}
