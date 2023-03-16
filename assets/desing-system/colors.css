@@ -1,5 +1,8 @@
+/* ----------------- */
+/* Colors */
+/* ----------------- */
+
 :root {
-  --gray-500: #6b7280;
   --black: #171717;
   --blue-100: #dbeafe;
   --blue-200: #bfdbfe;
@@ -11,11 +14,12 @@
   --blue-700: #1d4ed8;
   --blue-800: #1e40af;
   --blue-900: #1e3a8a;
+  --gray-50: #f9fafb;
   --gray-100: #f3f4f6;
   --gray-200: #e5e7eb;
   --gray-300: #d1d5db;
   --gray-400: #9ca3af;
-  --gray-50: #f9fafb;
+  --gray-500: #6b7280;
   --gray-600: #4b5563;
   --gray-700: #374151;
   --gray-800: #1f2937;
@@ -71,5 +75,24 @@
   --yellow-700: #b45309;
   --yellow-800: #92400e;
   --yellow-900: #78350f;
-  --info: #60a5fa;
+  --primary-lighter: var(--pink-100);
+  --primary-light: var(--pink-300);
+  --primary: var(--pink-600);
+  --primary-dark: var(--pink-700);
+  --primary-darker: var(--pink-900);
+  --secundary-lighter: var(--stone-100);
+  --secundary-light: var(--stone-300);
+  --secundary: var(--stone-600);
+  --secundary-dark: var(--stone-700);
+  --secundary-darker: var(--stone-900);
+  --error: var(--red-400);
+  --warning: var(--yellow-300);
+  --success: var(--green-400);
+  --info: var(--blue-400);
+  --text: var(--gray-900);
+  --background-lighter: var(--white-);
+  --background-light: var(--gray-50);
+  --background: var(--gray-100);
+  --background-dark: var(--gray-200);
+  --background-darker: var(--gray-300);
 }

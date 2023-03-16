@@ -1,9 +1,0 @@
-nav {
-  max-width: 1440px;
-  max-height: 68px;
-}
-
-.nav--flexbox {
-  display: flex;
-  justify-content: space-evenly;
-}

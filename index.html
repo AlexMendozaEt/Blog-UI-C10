@@ -4,85 +4,164 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/index.css" />
   </head>
   <body>
-    <header>
-      <nav class="nav--flexbox">
-        <div id="name"><a href="new_article.html">Home</a></div>
-        <section>
-          <div>
-            <button class="button-text button--left">
-              <a href="#">Articles</a>
-            </button>
-            <button class="button-text button--left">
-              <a href="#">Portafolio</a>
-            </button>
-            <button class="button-text button--left">
-              <a href="#">About</a>
-            </button>
-            <button
-              class="button button--primary button--primary--sm button--left"
-            >
-              Contact Me
-            </button>
-          </div>
-        </section>
-      </nav>
+    <header class="background-color">
+      <div class="container-lg">
+        <nav class="flex nav-box">
+          <a
+            href="index.html"
+            class="text-decoration-none heading-md text-semibold text-black"
+            ><span>Alex Mendoza</span></a
+          >
+          <ul class="flex list-style-none text_nav nav-links">
+            <li>
+              <a
+                href="#"
+                class="text-decoration-none text-md text-semibold text-primary"
+                >Articles</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-decoration-none text-md text-semibold text-primary"
+                >Portafolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-decoration-none text-md text-semibold text-primary"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="button button--primary text-decoration-none text-primary-lighter"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <section class="section-md">
-      <div class="container-md">
-        <h1>Lessons after 4 weeks learning to code</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit nunc
-          habitant lorem nunc. Nulla convallis eu pellentesque dolor. Morbi est
-          mauris posuere faucibus tincidunt vitae varius arcu. Ut aliquam tortor
-          consequat nec et sed viverra habitasse. Volutpat id a ut diam vitae
-          amet vitae mauris lacus. <strong>Pretium amet elementum</strong> diam
-          vel urna, quis. Turpis scelerisque eu nulla euismod est nisl. Eget
-          amet, id porttitor auctor nunc rhoncus.
-        </p>
-        <h2>The first two weeks</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit nunc
-          habitant lorem nunc. Nulla convallis eu pellentesque dolor. Morbi est
-          mauris posuere faucibus tincidunt vitae varius arcu. Ut aliquam tortor
-          consequat <a href="#">some link</a> nec et sed viverra habitasse.
-          Volutpat id a ut diam vitae amet vitae mauris lacus. Pretium amet
-          elementum diam vel urna, quis. Turpis scelerisque eu nulla euismod est
-          nisl. Eget amet, id porttitor auctor nunc rhoncus.
-        </p>
-        <ul>
-          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-          <li>
-            Elit nunc habitant lorem nunc. Nulla convallis eu pellentesque
-            dolor.
-          </li>
-          <li>
-            Morbi est mauris posuere faucibus tincidunt vitae varius arcu.
-          </li>
-        </ul>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit nunc
-          habitant lorem nunc. Nulla convallis eu pellentesque dolor. Morbi est
-          mauris posuere faucibus tincidunt vitae varius arcu.
-        </p>
-        <blockquote>
-          “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit feugiat
-          in quis in sed tortor. Sit tortor, sagittis molestie laoreet sed..”
-        </blockquote>
-        <figure>
-          <img src="assets/images/Living room.png" alt="" />
-          <figcaption>Image description</figcaption>
-        </figure>
-        <h2>The last two weeks</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit nunc
-          habitant lorem nunc. Nulla convallis eu pellentesque dolor. Morbi est
-          mauris posuere faucibus tincidunt vitae varius arcu.
+    <section class="section-padding-md background-color--secundary-light">
+      <div class="container-lg">
+        <h2 class="heading-xl text-regular h2--margin">
+          Hi! I’m <span class="text-semibold text-primary">Testino</span>, full
+          stack developer looking for new adventures
+        </h2>
+        <p class="text-xl text-light-default">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget velit
+          risus tellus viverra luctus in odio amet. Quisque viverra integer
+          lectus euismod quisque adipiscing. Sed posuere sed bibendum mi orci,
+          commodo, quam. Sagittis, donec sit bibendum mi nisl semper sed.
         </p>
       </div>
     </section>
+    <section class="section-padding-md">
+      <div class="container-lg">
+        <div class="articles_title_box">
+          <h2 class="heading-lg text-semibold">Last Articles</h2>
+          <p class="text-lg text-regular">Thinks I have learned lately</p>
+        </div>
+        <div class="articles_box_grid grid">
+          <div class="articles_content_box">
+            <time
+              datetime="2022-04-16"
+              class="text-xs text-semibold text-overline"
+            >
+              march 16, 2022
+            </time>
+            <h3 class="heading-md text-regular">Learning ruby in 4 weeks</h3>
+            <p class="text-lg text-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              dicta voluptatem enim corporis corrupti fuga! Natus minus sequi
+              beatae voluptate, quidem vel. Cupiditate placeat aspernatur totam
+              ipsam ad culpa commodi!
+            </p>
+            <a
+              href="#"
+              class="text-semibold text-overline text-primary text-decoration-none"
+              >read more</a
+            >
+          </div>
+          <div class="articles_content_box">
+            <time
+              datetime="2022-04-16"
+              class="text-xs text-semibold text-overline"
+            >
+              march 16, 2022
+            </time>
+            <h3 class="heading-md text-regular">Learning ruby in 4 weeks</h3>
+            <p class="text-lg text-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              dicta voluptatem enim corporis corrupti fuga! Natus minus sequi
+              beatae voluptate, quidem vel. Cupiditate placeat aspernatur totam
+              ipsam ad culpa commodi!
+            </p>
+            <a
+              href="#"
+              class="text-semibold text-overline text-primary text-decoration-none"
+              >read more</a
+            >
+          </div>
+          <div class="articles_content_box">
+            <time
+              datetime="2022-04-16"
+              class="text-xs text-semibold text-overline"
+            >
+              march 16, 2022
+            </time>
+            <h3 class="heading-md text-regular">Learning ruby in 4 weeks</h3>
+            <p class="text-lg text-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              dicta voluptatem enim corporis corrupti fuga! Natus minus sequi
+              beatae voluptate, quidem vel. Cupiditate placeat aspernatur totam
+              ipsam ad culpa commodi!
+            </p>
+            <a
+              href="#"
+              class="text-semibold text-overline text-primary text-decoration-none"
+              >read more</a
+            >
+          </div>
+          <div class="articles_content_box">
+            <time
+              datetime="2022-04-16"
+              class="text-xs text-semibold text-overline"
+            >
+              march 16, 2022
+            </time>
+            <h3 class="heading-md text-regular">Learning ruby in 4 weeks</h3>
+            <p class="text-lg text-light">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              dicta voluptatem enim corporis corrupti fuga! Natus minus sequi
+              beatae voluptate, quidem vel. Cupiditate placeat aspernatur totam
+              ipsam ad culpa commodi!
+            </p>
+            <a
+              href="#"
+              class="text-semibold text-overline text-primary text-decoration-none"
+              >read more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="section-padding-md background-color--secundary-light">
+      <div class="container-lg flex footer_content">
+        <h2 class="heading-xl text-semibold footer_text">Can I help you?</h2>
+        <a
+          href="#"
+          class="button button--primary text-decoration-none text-primary-lighter"
+          >Get in touch!</a
+        >
+      </div>
+    </footer>
   </body>
 </html>
