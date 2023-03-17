@@ -1,6 +1,27 @@
 .article_box {
   padding-top: 0;
 }
+
+.articles_box_grid {
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2.5rem;
+  margin: 1rem 0;
+}
+.articles_title_box {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.articles_content_box {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding: 0.5rem;
+}
+
 .article h1 {
   margin-bottom: 2rem;
 }

@@ -1,0 +1,25 @@
+.skills_box_grid {
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2.5rem;
+  margin: 1rem 0;
+}
+.skills_title_box {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.skills_content_box {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding: 0.5rem;
+}
+
+.skills_content_box img {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin: 0.5rem;
+}
