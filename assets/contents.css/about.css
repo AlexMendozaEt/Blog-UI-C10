@@ -13,13 +13,14 @@
 .skills_content_box {
   display: flex;
   text-align: left;
-  flex-direction: column;
+  flex-direction: row;
   gap: 0.625rem;
   padding: 0.5rem;
 }
 
-.skills_content_box p {
-  padding-left: 3.6rem;
+.data-skills {
+  padding: 0.35rem;
+  flex-direction: column;
 }
 
 .skills_content_box img {
