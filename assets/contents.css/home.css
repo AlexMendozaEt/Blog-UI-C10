@@ -21,15 +21,3 @@
   gap: 0.625rem;
   padding: 0.5rem;
 }
-
-.footer_content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.25rem;
-}
-
-.footer_text {
-  text-align: center;
-  padding-inline: 2rem;
-}

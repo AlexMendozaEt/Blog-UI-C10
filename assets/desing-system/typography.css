@@ -4,6 +4,10 @@
   --font-primary: "Open Sans", "Segoe UI", Tahoma, sans-serif;
 }
 
+html {
+  font-size: 16px;
+}
+
 .body {
   font-size: 1rem;
   line-height: 1.5;
