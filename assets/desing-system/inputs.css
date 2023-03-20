@@ -1,0 +1,63 @@
+input::placeholder {
+  color: var(--gray-500);
+}
+
+.input-default {
+  min-width: 256px;
+  min-height: 40px;
+  border-radius: 6px;
+  padding: 8px 12px;
+  border: 1px solid var(--gray-700);
+}
+
+.input-default:active {
+  outline: 3px solid var(--info);
+}
+
+.input-default:focus {
+  outline: 3px solid var(--info);
+}
+
+.input-default:invalid {
+  border: 1px solid var(--red-500);
+}
+
+.input-icon {
+  padding-left: 40px;
+  background: url(../images/Icon-user.svg) no-repeat scroll 7px 7px;
+  background-size: 13px;
+  background-position-y: 10px;
+  background-position-x: 12px;
+}
+
+.error-message {
+  color: var(--red-500);
+  margin: 0.25rem;
+  display: none;
+}
+
+.help-message {
+  color: var(--gray-500);
+  margin: 0.25rem;
+  display: none;
+}
+
+label:focus-within .help-message {
+  display: block;
+}
+
+.input-default:invalid + .error-message {
+  display: block;
+}
+
+.select-input {
+  appearance: none;
+  background: url(../images/Icon-selectors.svg) no-repeat scroll 7px 7px;
+  background-size: 13px;
+  background-position-y: 15px;
+  background-position-x: 220px;
+}
+
+.checkbox-options {
+  border-radius: 50px;
+}

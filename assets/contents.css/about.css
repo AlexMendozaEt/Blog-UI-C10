@@ -33,28 +33,31 @@
   display: flex;
   text-align: center;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.5rem;
 }
 
 .hobbies_box_grid {
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   margin: 1rem 0;
 }
 
 .hobbies_content_box {
   display: flex;
   text-align: center;
-  justify-content: center;
-  align-content: center;
   flex-direction: column;
-  gap: 0.625rem;
+  gap: 0.5rem;
 }
 
-.hobbies_content_box figure {
+.hobbies_text {
+  max-width: 300px;
+  max-height: 300px;
   margin-inline: auto;
 }
 
 .hobbies_content_box img {
-  width: 319px;
+  object-fit: cover;
+  max-width: 300px;
+  max-height: 300px;
   border-radius: 8px;
+  margin-inline: auto;
 }

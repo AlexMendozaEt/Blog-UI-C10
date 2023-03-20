@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="assets/index.css" />
+  </head>
+  <body>
+    <form action="post">
+      <fieldset>
+        <legend class="text-xs text-light-default text-overline">
+          Input Label
+        </legend>
+        <label>
+          <input
+            class="input-default text-md text-light-default text-black"
+            type="text"
+            placeholder="placeholder"
+            required
+          />
+          <p class="error-message text-sm text-regular">Error message</p>
+          <p class="help-message text-sm text-light-default">Help text</p>
+        </label>
+        <legend class="text-xs text-light-default text-overline">
+          Input Label
+        </legend>
+        <select
+          class="input-default text-md text-light-default text-black select-input flex"
+          name="select-day"
+          required
+        >
+          <option selected disabled hidden>Select one option</option>
+          <option value="Friday">Friday</option>
+          <option value="Saturday">Saturday</option>
+          <option value="Sunday">Sunday</option>
+        </select>
+        <div>
+          <input type="radio" name="day" value="Friday1" checked />
+          Friday1
+          <input type="radio" name="day" value="Saturday1" />
+          Saturday1
+        </div>
+        <br />
+        <div class="checkbox-options">
+          <input type="checkbox" name="checkbox-day" value="Friday1" checked />
+          Friday1
+          <input type="checkbox" name="checkbox-day" value="Saturday1" />
+          Saturday1
+        </div>
+        <br />
+        <button type="submit" name="submit">Send button</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
