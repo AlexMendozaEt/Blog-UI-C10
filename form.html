@@ -8,20 +8,23 @@
     <link rel="stylesheet" href="assets/index.css" />
   </head>
   <body>
-    <form action="post">
-      <fieldset>
+    <form action="post" class="section-md">
+      <fieldset class="container-md">
         <legend class="text-xs text-light-default text-overline">
           Input Label
         </legend>
         <label>
-          <input
-            class="input-default text-md text-light-default text-black"
-            type="text"
-            placeholder="placeholder"
-            required
-          />
-          <p class="error-message text-sm text-regular">Error message</p>
-          <p class="help-message text-sm text-light-default">Help text</p>
+          <div>
+            <img class="input-icon" src="assets/images/Icon-user.svg" alt="" />
+            <input
+              class="input-default text-md text-light-default text-black input-icon-text"
+              type="text"
+              placeholder="placeholder"
+              required
+            />
+            <p class="error-message text-sm text-regular">Error message</p>
+            <p class="help-message text-sm text-light-default">Help text</p>
+          </div>
         </label>
         <legend class="text-xs text-light-default text-overline">
           Input Label
