@@ -58,6 +58,30 @@ label:focus-within .help-message {
   background-position-x: 220px;
 }
 
-.checkbox-options {
-  border-radius: 50px;
+[type="checkbox"] {
+  display: none;
+}
+
+.label {
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.label::before {
+  content: "";
+  border: 1px solid var(--gray-700);
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  position: absolute;
+  left: 0px;
+  bottom: 0.25rem;
+}
+
+[type="checkbox"]:checked + .label::before {
+  border: 4px solid var(--primary);
+}
+
+.label:focus {
+  outline: 3px solid var(--info);
 }

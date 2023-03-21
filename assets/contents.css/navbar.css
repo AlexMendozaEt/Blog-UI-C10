@@ -14,3 +14,36 @@
   padding: 0;
   gap: 2em;
 }
+
+.hamburger-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-box {
+    padding: 15px;
+    padding-inline: 5px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+  .hamburger-menu img {
+    float: right;
+  }
+
+  #check:checked ~ .nav-links {
+    display: block;
+    text-align: center;
+  }
+  #check:checked ~ .nav-links li {
+    padding-bottom: 16px;
+  }
+  #check:checked ~ .nav-links li .button {
+    width: 90vw;
+  }
+}
