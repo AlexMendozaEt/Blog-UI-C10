@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/index.css" />
+  </head>
+  <body>
+    <header class="background-color">
+      <div class="container-lg">
+        <nav class="flex nav-box">
+          <a
+            href="index.html"
+            class="text-decoration-none heading-md text-semibold text-black"
+            ><span>Alex Mendoza</span></a
+          >
+          <input type="checkbox" id="check" />
+          <label for="check" class="hamburger-menu" id="close">
+            <img src="assets/images/Icon-hamburger-menu.svg" alt="" />
+          </label>
+          <label for="check" class="hamburger-menu" id="open">
+            <img src="assets/images/Icon-close.svg" alt="" />
+          </label>
+          <ul class="flex list-style-none text_nav nav-links">
+            <li>
+              <a
+                href="index.html"
+                class="text-decoration-none text-md text-semibold text-primary"
+                >Articles</a
+              >
+            </li>
+            <li>
+              <a
+                href="portfolio.html"
+                class="text-decoration-none text-md text-semibold text-primary"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="about.html"
+                class="text-decoration-none text-md text-semibold text-primary"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="button button--primary text-decoration-none text-primary-lighter"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="section-padding-md background-color">
+      <div class="container-md">
+        <h2 class="heading-lg text-semibold text-center">Contact Me</h3>
+          <p class="text-lg text-light-default text-center">Looking to expand your team? Or do you need a web developer for a specific project? If I can help you in any way don't hesitate to fill this form.</p>
+          <div class="grid contact_form">
+            <div class="grid" >
+              <label for="first_name" class="text-xs text-light-default text-overline"> First Name
+              </label>
+              <input
+              id="first_name"
+              class="input_default text-md text-light-default"
+              type="text"
+              name="first_name"
+              placeholder="John"
+            />
+            </div>
+            <div class="grid" >
+              <label for="last_name" class="text-xs text-light-default text-overline"> Last Name
+              </label>
+              <input
+                  id="last_name"
+                  class="input_default text-md text-light-default"
+                  type="text"
+                  name="last_name"
+                  placeholder="Doe"
+                />
+            </div>
+            <div class="grid" >
+              <label for="email" class="text-xs text-light-default text-overline"> Email
+              </label>
+              <input
+                  id="last_name"
+                  class="input_default text-md text-light-default"
+                  type="email"
+                  name="last_name"
+                  placeholder="Doe"
+                />
+            </div>
+            <div class="grid" >
+              <label for="Company" class="text-xs text-light-default text-overline"> Company
+              </label>
+              <input
+              id="Company"
+              class="input_default text-md text-light-default"
+              type="text"
+              name="Company"
+              placeholder="Company SA"
+            />
+            </div>
+            <div class="grid" >
+              <label for="phone" class="text-xs text-light-default text-overline"> Phone
+              </label>
+              <input
+              id="phone"
+              class="input_default text-md text-light-default"
+              type="tel"
+              name="phone"
+              placeholder="987654321"
+            />
+            </div>
+            <div class="grid" >
+              <label for="country" class="text-xs text-light-default text-overline"> Country
+              </label>
+              <select class="select input_default text-md text-light-default" id="country">
+                <option selected disabled hidden>Select one option</option>
+                <option value="1">Perú</option>
+                <option value="2">United States</option>
+                <option value="3">Mexico</option>
+                <option value="4">England</option>
+                <option value="5">Spain</option>
+              </select>
+            </div>
+            <div class="grid" >
+              <label for="checkbox">How can I help you?</label>
+              <div class="checkbox-group checkbox-group--vertical">
+                <div class="checkbox">
+                  <input
+                    id="job_offer"
+                    name="contact_form_group"
+                    type="checkbox"
+                    class="checkbox_input"
+                  />
+                  <div>
+                    <label for="job_offer" class="text-sm text-light-default text-black">Job Offer</label>
+                    <span class="checkbox_message text-xs text-light-default">If you are looking to expand your team</span>
+                  </div>
+                </div>
+                <div class="checkbox">
+                  <input
+                    id="project_offer"
+                    name="contact_form_group"
+                    type="checkbox"
+                    class="checkbox_input"
+                  />
+                  <div>
+                    <label for="project_offer" class="text-sm text-light-default text-black">Project Offer</label>
+                    <span class="checkbox_message text-xs text-light-default">If you are looking to expand your team</span>
+                  </div>
+                </div>
+                <div class="checkbox">
+                  <input
+                    id="collaboration"
+                    name="contact_form_group"
+                    type="checkbox"
+                    class="checkbox_input"
+                  />
+                  <div>
+                    <label for="collaboration" class="text-sm text-light-default text-black">Collaboration</label>
+                    <span class="checkbox_message text-xs text-light-default">If you are looking to expand your team</span>
+                  </div>
+                </div>
+                <div class="checkbox">
+                  <input
+                    id="other"
+                    name="contact_form_group"
+                    type="checkbox"
+                    class="checkbox_input"
+                  />
+                  <div>
+                    <label for="other" class="text-sm text-light-default text-black">Other</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="button button--primary text-decoration-none text-primary-lighter button_form">Send</button>
+      </div>
+    </section>
+    <footer class="section-padding-md background-color--secundary-light">
+      <div class="container-lg flex footer_content">
+        <h2 class="heading-xl text-semibold footer_text">Can I help you?</h2>
+        <a
+          href="#"
+          class="button button--primary text-decoration-none text-primary-lighter"
+          >Get in touch!</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
