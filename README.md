@@ -1,6 +1,6 @@
 # alexmendoza
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2a2ccbd9-acaf-4028-9e6c-7f4e650975d2/deploy-status)](https://app.netlify.com/sites/graceful-madeleine-2cf1f6/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2a2ccbd9-acaf-4028-9e6c-7f4e650975d2/deploy-status)](https://app.netlify.com/sites/alex-mendoza-blog/deploys)
 
 ## Contributing
 
