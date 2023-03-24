@@ -12,7 +12,7 @@
 .nav-links {
   flex-wrap: wrap;
   padding: 0;
-  gap: 2em;
+  gap: 2rem;
 }
 
 #check {
@@ -25,8 +25,8 @@
 
 @media only screen and (max-width: 430px) {
   .nav-box {
-    padding: 15px;
-    padding-inline: 5px;
+    padding: 0.9375rem;
+    padding-inline: 0.3125rem;
   }
 
   .nav-links {
@@ -46,7 +46,7 @@
     margin: 0 auto;
   }
   #check:checked ~ .nav-links li {
-    padding: 10px;
+    padding: 0.625rem;
   }
   #check:checked ~ .nav-links li:last-child {
     width: 85vw;

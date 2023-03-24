@@ -50,16 +50,16 @@
 }
 
 .hobbies_text {
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 18.75rem;
+  max-height: 18.75rem;
   margin-inline: auto;
 }
 
 .hobbies_content_box img {
   object-fit: cover;
-  max-width: 300px;
-  max-height: 300px;
-  border-radius: 8px;
+  max-width: 18.75rem;
+  max-height: 18.75rem;
+  border-radius: 0.5rem;
   margin-inline: auto;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .about-hobbies__image {
-  height: 220px;
+  height: 13.75rem;
   width: 100%;
   object-fit: cover;
   border-radius: 0.5rem;
