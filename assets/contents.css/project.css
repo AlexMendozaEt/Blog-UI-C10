@@ -1,0 +1,36 @@
+.info_project {
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.project_data h2 {
+  padding-bottom: 20px;
+}
+
+.project_data p {
+  padding-bottom: 40px;
+}
+
+.project_image {
+  height: 327px;
+  width: 384px;
+}
+
+.project_image figure img {
+  float: right;
+}
+
+.proyect-button {
+  max-width: 174px;
+}
+
+@media only screen and (max-width: 430px) {
+  .info_project {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  .project_image {
+    width: 95%;
+    margin: auto;
+  }
+}
