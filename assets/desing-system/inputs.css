@@ -79,7 +79,7 @@
   cursor: pointer;
   padding-right: 2.5rem;
   appearance: none;
-  background-image: url(../images/Icon-selectors.svg);
+  background-image: url(../images/svg/Icon-selectors.svg);
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: calc(100% - 0.75rem);
