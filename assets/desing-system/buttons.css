@@ -36,6 +36,18 @@
   background-color: var(--gray-500);
 }
 
+.button--default,
+.button--primary,
+.button--secondary {
+  transition: transform 0.1s linear;
+}
+
+.button--default:active,
+.button--primary:active,
+.button--secondary:active {
+  transform: translateY(0.2em);
+}
+
 .button--default:focus {
   outline: 3px solid var(--info);
   outline-offset: 1px;

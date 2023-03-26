@@ -109,6 +109,7 @@
 
 .checkbox_input {
   border-radius: 0.25rem;
+  cursor: pointer;
 }
 
 .radio_input:checked {
@@ -136,7 +137,29 @@
 .checkbox_input:checked {
   background-color: var(--primary);
   border: 0.0625rem solid var(--primary);
-  background-image: url(../images/Icon-selectors-check.svg);
+  outline: 3px solid var(--primary);
+  outline-offset: 1px;
+  background-image: url(../images/svg/Icon-selectors-check.svg);
   background-repeat: no-repeat;
   background-position: center;
+  animation-name: checkbox_input;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+}
+
+@keyframes checkbox_input {
+  0% {
+    scale: 1;
+    background-color: var(--white);
+  }
+  50% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 1;
+    background-color: var(--primary);
+    background-image: url(../images/svg/Icon-selectors-check.svg);
+    outline: 3px solid var(--primary);
+    outline-offset: 3px;
+  }
 }
